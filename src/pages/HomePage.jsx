@@ -50,17 +50,17 @@ function HomePage() {
             featured: false,
         },
         {
-            title: "Strategi Meta Ads untuk Bisnis",
+            title: "Workshop Membuat Website Hitungan Menit dengan AI",
             category: "WORKSHOP",
             date: "Coming Soon",
             time: "Coming Soon",
-            location: "Online / Offline",
-            price: "Coming Soon",
-            link: "https://member.mahirdigital.id/lp?aff=basigd34&i=3",
+            location: "Jagakarsa, Jakarta Selatan",
+            price: "Rp 299.000",
+            link: "#",
             description:
-                "Pelajari dasar periklanan digital dan bagaimana mengoptimalkan iklan untuk mendapatkan calon pelanggan.",
+                "Anda akan dibimbing langsung dari nol sampai landing page Anda benar-benar jadi dan siap digunakan untuk bisnis, dengan bantuan teknologi AI.",
             image:
-                "https://images.unsplash.com/photo-1611926653458-09294b3142bf?auto=format&fit=crop&w=900&q=80",
+                "https://mahirdigital.id/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-27-at-20.37.55_b62cc697-1080x810.jpg",
             featured: false,
         },
     ];
