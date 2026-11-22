@@ -25,6 +25,7 @@ function HomePage() {
             date: "1 tahun akses",
             time: "Akses 24/7",
             location: "Online & Offline",
+            originalPrice: "Rp 2.500.000",
             price: "Rp 1.295.000",
             link: "https://member.mahirdigital.id/lp?aff=basigd34&i=3",
             description:
@@ -415,9 +416,16 @@ function HomePage() {
                                                     Investasi
                                                 </p>
 
-                                                <h4 className="text-xl font-extrabold text-[#0b2341]">
-                                                    {event.price}
-                                                </h4>
+                                                <div className="flex flex-wrap items-baseline gap-2">
+                                                    {event.originalPrice && (
+                                                        <p className="text-sm text-slate-400 line-through">
+                                                            {event.originalPrice}
+                                                        </p>
+                                                    )}
+                                                    <h4 className="text-xl font-extrabold text-[#0b2341]">
+                                                        {event.price}
+                                                    </h4>
+                                                </div>
                                             </div>
 
                                             <a
